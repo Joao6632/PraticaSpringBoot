@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #0d47a1;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 400px;
+            text-align: center;
+        }
+        a {
+            background-color: #2196f3;
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo, você está logado!</h1>
+    <p>Seu acesso está liberado. Use o sistema com confiança e siga firme no desenvolvimento.</p>
+    <a href="/logout">Sair</a>
+</body>
+</html>
